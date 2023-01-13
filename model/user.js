@@ -8,12 +8,6 @@ const UserSchema = new Schema({
   token: { type: String },
 });
 
-// const ImageSchema = Schema({
-//   name: { type: String, default: null },
-//   image: { type: String, default: null },
-//   weight: {type : Number, default: null }
-// });
-
 const User = mongoose.model("User", UserSchema);
 
-module.exports={User};
+module.exports= User;
